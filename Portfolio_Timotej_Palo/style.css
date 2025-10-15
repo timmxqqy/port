@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d;
+    color: #ffffff;
+}
+
+a { text-decoration: none; color: #e50914; }
+
+header.hero {
+    background-color: #0d0d0d;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header.hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+header.hero h2 {
+    font-size: 2rem;
+    color: #e50914;
+}
+
+header.hero p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+section { padding: 60px 20px; }
+
+.about { display: flex; gap: 40px; align-items: center; flex-wrap: wrap; }
+.about .photo img { width: 300px; border-radius: 10px; }
+.about .text { max-width: 600px; }
+
+.school { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+.school-logo img { width: 150px; }
+.school-text { max-width: 700px; }
+
+.portfolio-categories { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; }
+.portfolio-categories a {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact p { margin: 10px 0; }
+
+footer { text-align: center; padding: 20px; background-color: #111; }
